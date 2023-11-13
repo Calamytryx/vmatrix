@@ -1,0 +1,163 @@
+/* THIRD COLUMN */
+.third-col{
+    width: 380px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 30px 30px;
+}
+.tc-wrapper{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.search-bar{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(61, 61, 63);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.search-bar span{
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.733);
+}
+#search{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 300;
+    width: 100%;
+}
+#search:focus{
+    outline: none;
+}
+
+.trends-ads{
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+
+.trends{
+    width: 100%;
+    background-color: rgb(42, 44, 46);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.t-header{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.trend-item{
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
+.trend-item:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+
+.trend-item p{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.ti-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ti-header p{
+    background-color: rgb(86, 89, 92);
+    color: rgb(181, 182, 184);
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+.ti-header button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.ti-header button:hover{ 
+    cursor: pointer;
+}
+.ti-topic-name{
+    font-weight: 400 !important;
+    font-size: 1.1rem !important;
+    padding-left: 3px;
+}
+.num-post{
+    color: rgb(181, 182, 184);
+    padding-left: 3px;
+}
+
+.ads{
+    width: 100%;
+    background-color: rgb(42, 44, 46);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    position: relative;
+}
+.a-bg-pic{
+    width: 1005;
+    height: 300px;
+    background-image: url(../assets/ad-toast.jpg);
+    background-size: cover;
+}
+.ads button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-header{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.a-body{
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.a-btn:hover{
+    cursor: pointer;
+}
+.poke-ball{
+    margin-left: 5px;
+    background-image: url(../assets/meme.png);
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+.close{
+    position: absolute;
+    right: 8px;
+    top: 0;
+    border: none !important;
+}
+.close:hover{
+    cursor: pointer;
+}

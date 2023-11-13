@@ -1,0 +1,256 @@
+/* MAIN CONTENT */
+.main-content{
+    border-left: 1px solid rgba(255, 255, 255, 0.438);
+    border-right: 1px solid rgba(255, 255, 255, 0.438);
+    width: 700px;
+    height: 100%;
+    position: relative;
+}
+
+.mc-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.mc-wrapper > div{
+    padding: 20px;
+}
+
+.mc-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+}
+
+.mc-header p{
+    font-size: 1.3rem;
+
+}
+.mc-header button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.mc-header button:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+
+
+.greet-greet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+}
+.post-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.438);
+}
+.greet{
+    width: 100%;
+    background-color: rgb(42, 44, 46);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.greet span{
+    margin-right: 15px;
+}
+.last-log{
+    margin-left: auto;
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.post{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #333333;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.post-pic{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(199, 195, 195);
+    border-radius: 50%;
+}
+.post-edit{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+}
+
+.post-write{
+    width: 100%;
+    margin-bottom: 5px;
+}
+#posts{
+    width: 100%;
+    min-height: 50px;
+    background-color: transparent;
+    border: none;
+}
+#posts:focus{
+    outline: none;
+}
+.post-actions{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.p-media{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.p-media:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+.p-post-btn{
+    margin-left: auto;
+    height: 30px;
+    width: 100px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+   
+}
+.p-post-btn:hover{
+    cursor: pointer;
+    background-color: rgb(231, 229, 229);
+}
+
+.main-posts{
+    max-height: 100%;
+    width: 100%;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.mp-wrapper{
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+.post-item{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+    
+}
+
+
+.post-item .more-btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    border: none !important;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-item .more-btn:hover{
+    cursor: pointer;
+    background-color: rgb(32, 32, 32);
+}
+.post-content{
+    width: 85%;
+    margin: 0 auto;
+}
+.user-media{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.user-info p{
+    margin-right: 8px;
+}
+
+.username{
+    color: rgba(255, 255, 255, 0.637);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.date-posted p{
+    color: rgba(255, 255, 255, 0.637);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.date-posted span{
+    color: rgba(255, 255, 255, 0.637);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.date-posted{
+    display: flex;
+    align-items: center;
+}
+.user-post{
+    margin-bottom: 10px;
+}
+.user-post p{
+    font-weight: 300;
+    color: rgb(232, 232, 233);
+}
+.post-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.post-icon span{
+    color: #000;
+    font-size: 1.5rem;
+}
+.p-send{
+    background-color: white;
+    
+}
+.p-send span{
+    color: #000;
+}
+.p-send:hover{
+    background-color: rgb(218, 217, 217);
+}
